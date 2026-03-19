@@ -16,29 +16,26 @@
     "pixi.js",
     "vue"
   ],
-  "main": "src/index.ts",
-  "publishConfig": {
-    "exports": {
-      ".": {
-        "types": "./dist/index.d.ts",
-        "require": "./dist/index.cjs",
-        "import": "./dist/index.js"
-      },
-      "./compiler": {
-        "types": "./dist/compiler.d.ts",
-        "require": "./dist/compiler.cjs",
-        "import": "./dist/compiler.js"
-      },
-      "./global": {
-        "types": "./dist/global.d.ts",
-        "require": "./dist/global.cjs",
-        "import": "./dist/global.js"
-      },
-      "./*": "./*"
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
     },
-    "main": "dist/index.cjs",
-    "module": "dist/index.js",
-    "types": "dist/index.d.ts"
+    "./compiler": {
+      "types": "./dist/compiler.d.ts",
+      "require": "./dist/compiler.cjs",
+      "import": "./dist/compiler.js"
+    },
+    "./global": {
+      "types": "./dist/global.d.ts",
+      "require": "./dist/global.cjs",
+      "import": "./dist/global.js"
+    },
+    "./*": "./*"
   },
   "typesVersions": {
     "*": {
