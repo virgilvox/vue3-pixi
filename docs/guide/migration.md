@@ -1,6 +1,6 @@
 # Migration from v7
 
-::: tip PixiJS v8
+::: tip PixiJS v8(RC)
 This version of vue3-pixi targets **PixiJS v8**. All APIs, examples, and guides reflect the v8 API.
 :::
 
@@ -267,7 +267,8 @@ The `SCALE_MODES` and `BLEND_MODES` enums have been replaced with plain strings 
 
 ```ts
 // v7
-import { SCALE_MODES, BLEND_MODES } from 'pixi.js'
+import { BLEND_MODES, SCALE_MODES } from 'pixi.js'
+
 texture.baseTexture.scaleMode = SCALE_MODES.NEAREST
 sprite.blendMode = BLEND_MODES.ADD
 
