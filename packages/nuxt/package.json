@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "@nuxt/kit": "catalog:nuxt",
-    "vue3-pixi": "workspace:^"
+    "@virgilvox/vue3-pixi": "workspace:^"
   },
   "devDependencies": {
     "@nuxt/devtools": "catalog:nuxt",

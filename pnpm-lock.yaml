@@ -165,6 +165,9 @@ importers:
       '@stackblitz/sdk':
         specifier: catalog:docs
         version: 1.11.0
+      '@virgilvox/vue3-pixi':
+        specifier: workspace:^
+        version: link:../packages/core
       '@vueuse/core':
         specifier: catalog:share
         version: 10.11.1(vue@3.5.17(typescript@6.0.2))
@@ -195,9 +198,6 @@ importers:
       vue:
         specifier: catalog:share
         version: 3.5.17(typescript@6.0.2)
-      vue3-pixi:
-        specifier: workspace:^
-        version: link:../packages/core
     devDependencies:
       '@iconify/json':
         specifier: catalog:docs
@@ -227,10 +227,10 @@ importers:
         specifier: catalog:share
         version: 4.0.2
       pixi-filters:
-        specifier: catalog:share
+        specifier: '>=6.0.0'
         version: 6.1.5(pixi.js@8.14.3)
       pixi.js:
-        specifier: catalog:share
+        specifier: '>=8.14.3'
         version: 8.14.3
       vue-demi:
         specifier: catalog:share
@@ -245,7 +245,7 @@ importers:
       '@nuxt/kit':
         specifier: catalog:nuxt
         version: 4.4.2(magicast@0.5.2)
-      vue3-pixi:
+      '@virgilvox/vue3-pixi':
         specifier: workspace:^
         version: link:../core
     devDependencies:
@@ -285,8 +285,6 @@ importers:
       vue3-pixi-nuxt:
         specifier: workspace:^
         version: link:..
-
-  packages/nuxt/test/fixtures/basic: {}
 
 packages:
 

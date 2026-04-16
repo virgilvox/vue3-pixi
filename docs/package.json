@@ -13,6 +13,7 @@
   "dependencies": {
     "@antfu/utils": "catalog:share",
     "@stackblitz/sdk": "catalog:docs",
+    "@virgilvox/vue3-pixi": "workspace:^",
     "@vueuse/core": "catalog:share",
     "gsap": "catalog:docs",
     "naive-ui": "catalog:docs",
@@ -22,8 +23,7 @@
     "three": "^0.183.2",
     "unocss": "catalog:docs",
     "vitepress-plugin-llms": "catalog:docs",
-    "vue": "catalog:share",
-    "vue3-pixi": "workspace:^"
+    "vue": "catalog:share"
   },
   "devDependencies": {
     "@iconify/json": "catalog:docs",
