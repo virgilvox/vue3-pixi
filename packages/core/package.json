@@ -1,8 +1,8 @@
 {
-  "name": "vue3-pixi",
+  "name": "@virgilvox/vue3-pixi",
   "type": "module",
-  "version": "1.0.0",
-  "description": "Vue createRenderer for PixiJS",
+  "version": "1.0.1",
+  "description": "Vue createRenderer for PixiJS (fork with v8 batch-renderer null-geometry guard)",
   "license": "MIT",
   "homepage": "https://github.com/hairyf/vue3-pixi#readme",
   "repository": {
